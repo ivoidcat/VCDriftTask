@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "VCDriftTask"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "一个ios平台的队列库，异步进入，同步输出"
 
   spec.description  = "一个ios平台的队列库，异步进入，同步输出"
