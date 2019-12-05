@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Model/VCDriftTaskModel.h"
+#import "VCDriftTaskModel.h"
 NS_ASSUME_NONNULL_BEGIN
 
 //NS_ENUM，队列类型
