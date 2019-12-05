@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "voidcat" => "voidcat@163.com" }
 
 
-  spec.source       = { :git => "https://github.com/ivoidcat/VCDriftTask.git", :tag => "#{spe.version}" }
+  spec.source       = { :git => "https://github.com/ivoidcat/VCDriftTask.git", :tag => "1.0.0" }
 
 
 
