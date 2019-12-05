@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
 
 
-  spec.source_files  = "VCDriftTask/*.{h,m}"
+  spec.source_files  = "VCDriftTask/*.{h,m}","VCDriftTask/VCDriftTask/*.{h,m}"
 
 
 
