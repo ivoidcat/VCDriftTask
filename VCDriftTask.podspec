@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "一个ios平台的队列库，异步进入，同步输出"
 
   spec.platform = :ios
-
+  spec.ios.deployment_target = '8.0'
   spec.description  = '一个ios平台的队列库，异步进入，同步输出'
 
   spec.homepage     = "https://github.com/ivoidcat/VCDriftTask.git"
@@ -19,9 +19,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/ivoidcat/VCDriftTask.git", :tag => "1.0.0" }
 
-  
   spec.source_files  = "VCDriftTask/*.{h,m}"
-  spec.header_dir = 'VCDriftTask'
-  spec.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${PROJECT_DIR}/.."' }
 
 end
