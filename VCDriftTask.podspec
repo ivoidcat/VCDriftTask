@@ -19,6 +19,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/ivoidcat/VCDriftTask.git", :tag => "1.0.0" }
 
-  spec.source_files  = "VCDriftTask/*.{h,m}"
+  spec.source_files  = "VCDriftTask/VCDriftTask.h","VCDriftTask/VCDriftTask.m","VCDriftTask/VCDriftTaskModel.h","VCDriftTask/VCDriftTaskModel.m",
 
 end
